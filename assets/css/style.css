@@ -496,6 +496,11 @@ a.hoverline:hover {
   border-bottom: 3px solid #004d40 !important;
 }
 
+#projects .card .col.s12.m2 a img{
+  height: 80%;
+  width: 80%;
+}
+
 #skills .card.large {
   height: 360px;
 }
