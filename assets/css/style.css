@@ -200,10 +200,8 @@ nav i {
 } */
 
 main {
-  background: #f7f7f7;
-  margin-left: 190px;
-  padding-left: 30px;
-  padding-right: 30px;
+  background: url(../../assets/img/bg.png) repeat;
+  padding-left: 190px;
 }
 
 dl {
@@ -310,16 +308,14 @@ li.logo span {
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+  width: 95%;
 }
 
 h3 {
   font-weight: 200;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-top: 0;
-  padding: 20px 30px;
+  padding: 30px 40px;
   text-transform: uppercase;
 }
 
@@ -346,12 +342,11 @@ h3 {
 }
 
 #intro.section .container {
-  color: #222;
+  color: white;
   font-weight: 200;
   left: 0;
   position: absolute;
   top: 0;
-  text-shadow: none;
 }
 
 /* #intro.section .container *:not(span) {
@@ -415,15 +410,7 @@ h3 {
   right: 38px;
   top: 35px;
 }
-.card {
-  border-radius: 12px;
-  transition: 0.3s ease;
-}
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-}
 .card li a {
   margin-right: 0;
   color: #333;
@@ -521,15 +508,7 @@ a.hoverline {
 a.hoverline:hover {
   border-bottom: 3px solid #004d40 !important;
 }
-#projects .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-#projects .card {
-  flex: 1 1 calc(50% - 20px);
-  min-width: 320px;
-}
+
 #projects .card .col.s12.m2 a img{
   height: 80%;
   width: 80%;
